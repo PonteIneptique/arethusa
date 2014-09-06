@@ -22,9 +22,9 @@ describe('permalinker', function() {
   describe('this.get()', function() {
     it('returns a permalink to the current situation', function() {
       navigator.status.currentId = 3;
-      state.multiSelect('0001', '0002');
+      state.multiSelect(['0001', '0002']);
       var link = permalinker.get();
-      var res  = "http://www.test.com/doc=123&chunk=3&w=1&w=2";
+      var res  = "http://www.test.com/app?doc=123&chunk=3&w=1&w=2";
       expect(link).toEqual(res);
     });
   });
