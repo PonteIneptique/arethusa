@@ -59,6 +59,14 @@ function ArethusaMocks() {
     });
   };
 
+  this.$location = function() {
+    return withCustomizations({
+      absUrl: function() {
+        return 'www.test.com/doc=123&chunk=1';
+      }
+    });
+  };
+
   this.tokens = function() {
     return {
       '01': {
