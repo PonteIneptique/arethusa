@@ -72,6 +72,14 @@ describe("urlParser", function() {
       var obj = urlParser(url1);
       obj.set('x', ['1', '2']);
       var newUrl = "http://www.test.com?x=1&x=2";
+      expect(obj.url).toEqual(newUrl);
+    });
+
+    it('takes an object to override all previously set params', function() {
+      var obj = urlParser(url1);
+      obj.set({ x: 2, y: [3, 4] });
+      var newUrl = "http://www.test.com?x=2&y=3&y=4";
+      expect(obj.url).toEqual(newUrl);
     });
   });
 });

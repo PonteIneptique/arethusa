@@ -45,6 +45,8 @@ angular.module('arethusa.core').factory('urlParser', [
       this.set = function(paramsOrKey, val) {
         if (angular.isString(paramsOrKey) && val) {
           this.params[paramsOrKey] = val;
+        } else {
+          this.params = paramsOrKey;
         }
 
         updateUrl(self, parser);
