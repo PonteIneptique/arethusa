@@ -6,7 +6,7 @@
     "chunkParam" : "chunk",
     "retrievers" : {
       "TreebankRetriever" : {
-        "resource" : "fakePerseids",
+        "resource" : "localPerseids",
         "docIdentifier" : "treebank",
         "preselector" : "w"
       }
@@ -19,6 +19,7 @@
     },
     "plugins" : [
       "tei",
+      "text",
       "artificialToken",
       "search",
       "morph",
