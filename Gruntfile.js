@@ -332,6 +332,13 @@ module.exports = function(grunt) {
           }
         }
       },
+      doc: {
+        options: {
+          keepalive: true,
+          port: 9002,
+          base: 'docs'
+        }
+      }
     },
     sauce_connect: {
       your_target: {
