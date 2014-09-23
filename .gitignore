@@ -2,6 +2,7 @@ node_modules/*
 bower_components/*
 *.swp
 coverage
+docs
 dist/
 deployment/
 .sass-cache
