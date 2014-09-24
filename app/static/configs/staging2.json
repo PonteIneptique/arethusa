@@ -6,7 +6,7 @@
     "chunkParam" : "chunk",
     "retrievers" : {
       "TreebankRetriever" : {
-        "resource" : "localPerseids",
+        "resource" : "fakePerseids",
         "docIdentifier" : "treebank",
         "preselector" : "w"
       }
