@@ -11,12 +11,12 @@
   "settings" : "Paramètres",
   "save" : "Enregistrer",
   "reset" : "Réinitialiser",
-  "items" : "Items", //Need information about this one
-  "useCases" : "Use Cases", //Need information about this one
+  "items" : "Items", //TO.DO
+  "useCases" : "Use Cases", //TO.DO
   "gettingStarted" : "Commencer",
   "development" : "Développement",
-  "depTrees" : "Dependency Trees", //Need information about this one
-  "review" : "Review", //Need information about this one
+  "depTrees" : "Dependency Trees", //TO.DO
+  "review" : "Review", //TO.DO
   "Treebanking" : "Treebanking",
   "markdownEnabled" : "Mise en page Markdown activée!",
   "apply" : "Appliquer",
@@ -25,72 +25,72 @@
   "delete" : "Supprimer",
 
   "landing" : {
-    "description" : "A backend-independent client-side annotation framework",
-    "modularNature" : "Through its modular nature Arethusa can be configured to solve different use cases.",
-    "moreScreencasts" : "More Screencasts",
-    "devDescription" : "Arethusa is built on the <a href=\"https://angularjs.org/angular.js\">AngularJS</a> javascript web application framework and provides a back-end independent plugin infrastructure for accessing texts, annotations and linguistic services from a variety of sources. Extensibility is a guiding design goal - Arethusa includes tools for automatic generation of new plugin skeletons (<a href=\"https://github.com/latin-language-toolkit/arethusa-cli\">Arethusa::CLI</a>) and detailed <a href=\"http://github.com/latin-language-toolkit/arethusa/blob/docs/docs/content/plugin_guide.md\">development guides</a> are currently in progress, with the hopes that others will be able to reuse and build upon the platform to add support for other annotation types, languages and back-end repositories and workflow engines.",
-    "partners" : "Partners",
-    "funders" : "Funders",
-    "fundersDescription" : "This project has received support from the <a href=\"http://www.mellon.org/\">Andrew W. Mellon Foundation</a>, the <a href=\"http://imls.gov/\">Institute of Museum and Library Services</a> and the <a href=\"http://ec.europa.eu/esf/home.jsp\">European Social Fund</a>",
-    "tryYourself" : "Try it yourself!"
+    "description" : "Un framework client d'annotation indépendent de tout backend",
+    "modularNature" : "Du fait de sa nature modulaire, Arethusa peut être configuré pour répondre à différentes situations.",
+    "moreScreencasts" : "Plus de vidéo exemple",
+    "devDescription" : "Arethusa est construit à partir du framework javascript <a href=\"https://angularjs.org/angular.js\">AngularJS</a> pour applications web et prodigue une infrastructure indépendante de tout back-end lié à la mise à disposition de textes, de services d'annotations ou d'outils linguistiques. L'extensibilité est une caractéristique primaire de notre développement - Arethusa inclut des outils pour la génération automatique de structures de modules (<a href=\"https://github.com/latin-language-toolkit/arethusa-cli\">Arethusa::CLI</a>) et des <a href=\"http://github.com/latin-language-toolkit/arethusa/blob/docs/docs/content/plugin_guide.md\">guides de développement détaillé</a> sont en cours de rédaction, avec l'espoir que d'autres seront capables de réutiliser et de construire sur cette plateforme des nouvelles fonctionnalités pour d'autres annotations, langues, back-end et workflow.",
+    "partners" : "Partenaires",
+    "funders" : "Financements",
+    "fundersDescription" : "Ce projet a été soutenu par la <a href=\"http://www.mellon.org/\">Fondation Andrew W. Mellon</a>, l'<a href=\"http://imls.gov/\">Institute of Museum and Library Services</a> et l'<a href=\"http://ec.europa.eu/esf/home.jsp\">European Social Fund</a>",
+    "tryYourself" : "Essayer !"
   },
 
   "auth" : {
-    "notLoggedIn" : "You aren't logged in!"
+    "notLoggedIn" : "Vous n'êtes pas connectés!"
   },
 
   "navigator" : {
-    "chunkSizeError" : "Only chunk sizes between 1 and 5 are currently supported"
+    "chunkSizeError" : "Only chunk sizes between 1 and 5 are currently supported"//TO.DO
   },
 
   "saver" : {
-    "success" : "Document saved!",
-    "error" : "Failed to save! Try again?",
-    "inProgress" : "Saving...",
-    "nothingToSave" : "Nothing to save yet!",
-    "confirmNote" : "You have unsaved changes!",
-    "confirmQuestion" : "Are you sure you want to leave?"
+    "success" : "Document sauvegardé!",
+    "error" : "Echec de la sauvegarde. Réessayer ?",
+    "inProgress" : "Sauvegarde...",
+    "nothingToSave" : "Rien à sauvegarde pour le moment!",
+    "confirmNote" : "Vous avez des modifications non sauvegardées!",
+    "confirmQuestion" : "Êtes-vous sûr de vouloir quitter ??"
   },
 
   "sidepanel" : {
-    "fold" : "Fold Panel",
-    "show" : "Show Panel"
+    "fold" : "Fold Panel",//TO.DO
+    "show" : "Show Panel"//TO.DO
   },
 
   "history" : {
-    "undo" : "Undo",
-    "redo" : "Redo",
-    "noRecords" : "No history events recorded.",
+    "undo" : "Annuler",
+    "redo" : "Rétablir",
+    "noRecords" : "Aucun événement dans l'historique.",
     "add" : {
-      "start" : "Added",
-      "end" : ""
+      "start" : "",
+      "end" : "ajouté"
     },
     "remove" : {
-      "start" : "Removed",
+      "start" : "supprimé",
       "end" : ""
     },
     "change" : {
-      "start" : "Changed <strong>{{ property }}</strong> of",
+      "start" : "Changement de <strong>{{ property }}</strong> pour ",
       "end" : ""
     },
-    "fromTo" : "from {{ from }} to {{ to }}"
+    "fromTo" : "De {{ from }} à {{ to }}"
   },
 
   "uth" : {
-    "count"   : "{{ count }} of {{ total }} unused",
-    "tooltip" : "Click to toggle highlighting<br>Double-click to select"
+    "count"   : "{{ count }} of {{ total }} unused",//TO.DO
+    "tooltip" : "Click to toggle highlighting<br>Double-click to select"//TO.DO
   },
 
   "comments" : {
-    "newComment" : "New Comment",
-    "fullTextSearch" : "Full Text Search",
-    "filterSelected" : "Filter selected",
-    "successMessage" : "Comment created!",
-    "errorMessage"   : "Failed to create comment",
-    "selectFirst"    : "Need to select some tokens first",
-    "count" : "{{ count }} of {{ total }} commented",
-    "docLevelComm" : "Document level comments",
-    "on" : "on"
+    "newComment" : "Nouveau commentaire",
+    "fullTextSearch" : "Recherche plein texte",
+    "filterSelected" : "Filtre sélectionné",
+    "successMessage" : "Commentaire créé!",
+    "errorMessage"   : "Echec lors de la sauvegarde du commentaire",
+    "selectFirst"    : "Need to select some tokens first",//TO.DO
+    "count" : "{{ count }} of {{ total }} commented",//TO.DO
+    "docLevelComm" : "Document level comments",//TO.DO
+    "on" : "on"//TO.DO
   },
 
   "tree" : {
