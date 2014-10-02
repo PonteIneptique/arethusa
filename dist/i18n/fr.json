@@ -121,20 +121,20 @@
   },
 
   "globalSettings" : {
-    "title" : "Global Settings",
-    "alwaysDeselect" : "Deselect after every annotation action",
-    "keyboardMappings" : "Disable keyboard mapping for input fields",
-    "colorizer" : "Colorize tokens by",
-    "layout" : "Layout",
-    "clickAction" : "Click behaviour",
-    "chunkMode" : "Chunk Mode"
+    "title" : "Paramètres globaux",
+    "alwaysDeselect" : "Deselect after every annotation action",//TO.DO
+    "keyboardMappings" : "Disable keyboard mapping for input fields",//TI aO.DO
+    "colorizer" : "Colorize tokens by",//TO.DO
+    "layout" : "Layout",//TO.DO
+    "clickAction" : "Click behaviour",//TO.DO
+    "chunkMode" : "Chunk Mode"//TO.DO
   },
 
   "grid" : {
-    "dragging" : "Dragging",
-    "pushing" : "Pushing",
-    "resizing" : "Resizing",
-    "floating" : "Floating"
+    "dragging" : "Glisser",//TO.DO
+    "pushing" : "Pousser",//TO.DO
+    "resizing" : "Redimensionner",//TO.DO
+    "floating" : "Floating"//TO.DO
   },
 
   "plugins" : {
