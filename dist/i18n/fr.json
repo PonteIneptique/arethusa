@@ -11,12 +11,12 @@
   "settings" : "Paramètres",
   "save" : "Enregistrer",
   "reset" : "Réinitialiser",
-  "items" : "Items", //TO.DO
-  "useCases" : "Use Cases", //TO.DO
+  "items" : "Items", 
+  "useCases" : "Use Cases", 
   "gettingStarted" : "Commencer",
   "development" : "Développement",
-  "depTrees" : "Dependency Trees", //TO.DO
-  "review" : "Review", //TO.DO
+  "depTrees" : "Dependency Trees", 
+  "review" : "Comparer", 
   "Treebanking" : "Treebanking",
   "markdownEnabled" : "Mise en page Markdown activée!",
   "apply" : "Appliquer",
@@ -40,7 +40,7 @@
   },
 
   "navigator" : {
-    "chunkSizeError" : "Only chunk sizes between 1 and 5 are currently supported"//TO.DO
+    "chunkSizeError" : "Only chunk sizes between 1 and 5 are currently supported"
   },
 
   "saver" : {
@@ -53,8 +53,8 @@
   },
 
   "sidepanel" : {
-    "fold" : "Fold Panel",//TO.DO
-    "show" : "Show Panel"//TO.DO
+    "fold" : "Fold Panel",
+    "show" : "Show Panel"
   },
 
   "history" : {
@@ -77,8 +77,8 @@
   },
 
   "uth" : {
-    "count"   : "{{ count }} of {{ total }} unused",//TO.DO
-    "tooltip" : "Click to toggle highlighting<br>Double-click to select"//TO.DO
+    "count"   : "{{ count }} sur {{ total }} d'inutilisé(s)",
+    "tooltip" : "Cliquer pour surgligner\nDouble-cliquer pour sélectionner"
   },
 
   "comments" : {
@@ -87,68 +87,68 @@
     "filterSelected" : "Filtre sélectionné",
     "successMessage" : "Commentaire créé!",
     "errorMessage"   : "Echec lors de la sauvegarde du commentaire",
-    "selectFirst"    : "Need to select some tokens first",//TO.DO
-    "count" : "{{ count }} of {{ total }} commented",//TO.DO
-    "docLevelComm" : "Document level comments",//TO.DO
-    "on" : "on"//TO.DO
+    "selectFirst"    : "Need to select some tokens first",
+    "count" : "{{ count }} sur {{ total }} de commenté(s)",
+    "docLevelComm" : "Commentaires pour le document entier",
+    "on" : "on"
   },
 
   "tree" : {
-    "changeDir" : "Change Direction",
-    "focusRoot" : "Focus Root",
-    "focusSel"  : "Focus Selection",
-    "centerTree" : "Center Tree",
-    "perfectWidth" : "Perfect Width",
-    "compact" : "Compact tree",
-    "widen" : "Widen tree"
+    "changeDir" : "Changer la direction",
+    "focusRoot" : "Centrer sur la racine",
+    "focusSel"  : "Sélectionner la racine",
+    "centerTree" : "Centrer l'arbre",
+    "perfectWidth" : "Ajuster la largeur",
+    "compact" : "Taille minimale",
+    "widen" : "Taille maximale"
   },
 
   "morph" : {
-    "lemmaHint" : "This lemma was added automatically!\nCheck it before you save!",
+    "lemmaHint" : "Ce lemme a été ajouté automatiquement\nVérifier le avant de sauvegarder.!",
     "createSuccess" : {
-      "start" : "Added form for",
+      "start" : "Forme ajoutée pour",
       "end" : ""
     },
-    "createError" : "Cannot save an incomplete form",
-    "createNewForm" : "Create new form",
-    "searchByForm" : "by form",
-    "matchAll" : "all"
+    "createError" : "Impossible de créer une forme incomplète",
+    "createNewForm" : "Créer une nouvelle forme",
+    "searchByForm" : "par forme",
+    "matchAll" : "Tout"
   },
 
   "relation" : {
-    "changeAll" : "Change all",
-    "searchByLabel" : "by label"
+    "changeAll" : "Changer tout",
+    "searchByLabel" : "par label"
   },
 
   "globalSettings" : {
     "title" : "Paramètres globaux",
-    "alwaysDeselect" : "Deselect after every annotation action",//TO.DO
-    "keyboardMappings" : "Disable keyboard mapping for input fields",//TI aO.DO
-    "colorizer" : "Colorize tokens by",//TO.DO
-    "layout" : "Layout",//TO.DO
-    "clickAction" : "Click behaviour",//TO.DO
-    "chunkMode" : "Chunk Mode"//TO.DO
+    "alwaysDeselect" : "Déselectionner après une annotation",
+    "keyboardMappings" : "Désactiver les raccourcis claviers pendant une saisie",
+    "colorizer" : "Coloriser les tokens par",
+    "layout" : "Mise en page",
+    "clickAction" : "Comportement du clic",
+    "chunkMode" : "Chunk Mode"
   },
 
   "grid" : {
-    "dragging" : "Glisser",//TO.DO
-    "pushing" : "Pousser",//TO.DO
-    "resizing" : "Redimensionner",//TO.DO
-    "floating" : "Floating"//TO.DO
+    "dragging" : "Glisser",
+    "pushing" : "Pousser",
+    "resizing" : "Redimensionner",
+    "floating" : "Floating"
   },
 
   "plugins" : {
     "added" : {
-      "start" : "",
-      "end" : "plugin added"
+      "start" : "Plugin",
+      "end" : "ajouté"
     },
     "failed" : {
-      "start" : "Failed to load",
+      "start" : "Impossible de charger",
       "end" : ""
     },
     "alreadyLoaded" : {
       "start" : "",
-      "end" : "is already loaded!"
+      "end" : "est déjà chargé!"
     }
   },
 
@@ -165,13 +165,13 @@
     "addToken" : "Add token",
     "visualRepresentation" : "Visual representation of new token (optional)",
     "noArtTokensPresent" : "No artificial tokens present",
-    "insertionPoint" : "Insertion Point",
+    "insertionPoint" : "Point d'insertion",
     "insertBehind" : {
-      "start" : "behind",
+      "start" : "derrière",
       "end" : ""
     },
     "insertInFront" : {
-      "start" : "in front of",
+      "start" : "devant",
       "end" : ""
     },
     "insertBehindHint" : "insert behind token (click to toggle)",
@@ -179,7 +179,7 @@
   },
 
   "helpPanel" : {
-    "keyboardShortcuts" : "Keyboard Shortcuts",
-    "colorLegends" : "Color Legends"
+    "keyboardShortcuts" : "Raccourcis claviers",
+    "colorLegends" : "Légende couleurs"
   }
 }
